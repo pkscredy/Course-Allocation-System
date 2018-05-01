@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Course Allocation System</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+    <string name="title_activity_fifth">FifthActivity</string>
+    <string name="title_activity_exam_details">ExamDetails</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_student_login">StudentLogin</string>
+    <string name="title_activity_previous">PreviousActivity</string>
+    <string name="title_activity_secondary">SecondaryActivity</string>
+    <string name="title_activity_senior_secondary">SeniorSecondaryActivity</string>
+    <string name="title_activity_ug">UGActivity</string>
+    <string name="title_activity_admin_profile">AdminProfileActivity</string>
+    <string name="title_activity_add_verifier">AddVerifierActivity</string>
+    <string name="title_activity_add_hod">AddHODActivity</string>
+    <string name="title_activity_add_course">AddCourseActivity</string>
+    <string name="title_activity_admin_login">AdminLoginActivity</string>
+    <string name="title_activity_verifier_login">VerifierLoginActivity</string>
+    <string name="title_activity_verifier_main">VerifierMainActivity</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="title_activity_approve">ApproveActivity</string>
+    <string name="title_activity_hodlogin">HODLoginActivity</string>
+    <string name="title_activity_hodmain">HODMainActivity</string>
+    <string name="title_activity_student_main">StudentMainActivity</string>
+    <string name="title_activity_graduate">GraduateActivity</string>
+
+</resources>

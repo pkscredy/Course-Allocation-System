@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.courseallocationsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.courseallocationsystem.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.FourthActivity"
+            android:label="@string/title_activity_fourth" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.FifthActivity"
+            android:label="@string/title_activity_fifth" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.ExamDetails"
+            android:label="@string/title_activity_exam_details" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.StudentLogin"
+            android:label="@string/title_activity_student_login" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.PreviousActivity"
+            android:label="@string/title_activity_previous" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.SecondaryActivity"
+            android:label="@string/title_activity_secondary" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.SeniorSecondaryActivity"
+            android:label="@string/title_activity_senior_secondary" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.UGActivity"
+            android:label="@string/title_activity_ug" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.AdminProfileActivity"
+            android:label="@string/title_activity_admin_profile" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.AddVerifierActivity"
+            android:label="@string/title_activity_add_verifier" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.AddHODActivity"
+            android:label="@string/title_activity_add_hod" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.AddCourseActivity"
+            android:label="@string/title_activity_add_course" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.AdminLoginActivity"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.VerifierLoginActivity"
+            android:label="@string/title_activity_verifier_login" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.VerifierMainActivity"
+            android:label="@string/title_activity_verifier_main" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.VerifyActivity"
+            android:label="@string/title_activity_verify" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.ApproveActivity"
+            android:label="@string/title_activity_approve" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.HODLoginActivity"
+            android:label="@string/title_activity_hodlogin" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.HODMainActivity"
+            android:label="@string/title_activity_hodmain" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.StudentMainActivity"
+            android:label="@string/title_activity_student_main" >
+        </activity>
+        <activity
+            android:name="com.example.courseallocationsystem.GraduateActivity"
+            android:label="@string/title_activity_graduate" >
+        </activity>
+    </application>
+
+</manifest>
